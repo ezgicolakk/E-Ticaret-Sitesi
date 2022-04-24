@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pointer:hover {
+    cursor: pointer;
+    background-color: rgb(209, 147, 124);
+}
+
+.ezgi:hover,
+.ezgi:focus {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(209, 147, 124);
+}
+
+.logo:hover {
+    border: 1px solid rgb(139, 94, 78);
+    border-radius: 10px 10px;
+}
+
+.ezgi:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: white;
+}
+
+.ezgi:disabled {
+    color: #adb5bd;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+.kirmizi {
+    background-color: white;
+}
+
+.ezgi {
+    color: black !important;
+}
+
+.Logo {
+    background-color: rgb(206, 118, 86);
+}
+
+.tool {
+    background-color: #16181b !important;
+}
+
+.navbar {
+    background-color: white!important;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.p1 {
+    position: relative;
+    right: -20px;
+    width: 450px;
+    height: 700px;
+    top: 15px;
+}
+
+.column img {
+    border-radius: 20px;
+}
+
+.p2 {
+    position: relative;
+    right: -35px;
+    width: 287px;
+    height: 340px;
+    top: -165px;
+}
+
+.p3 {
+    position: relative;
+    right: -47px;
+    width: 287px;
+    height: 340px;
+    top: -165px;
+}
+
+.p4 {
+    width: 287px;
+    height: 340px;
+    position: relative;
+    right: -490px;
+    top: -332px;
+}
+
+.p5 {
+    width: 287px;
+    height: 340px;
+    position: relative;
+    right: -502px;
+    top: -332px;
+}
+
+.carousel-inner img {
+    border-radius: 20px;
+}
+
+.nav-top {
+    position: relative;
+    top: -5px;
+}
+
+.btn-search {
+    background-color: rgb(167, 84, 54) !important;
+    color: white !important;
+    border: rgb(224, 134, 134) !important;
+}
+
+.btn-search:hover {
+    background-color: rgb(128, 60, 35) !important;
+}
+
+.btn-log {
+    background-color: rgb(167, 84, 54)!important;
+    border: rgb(70, 23, 23) !important;
+}
+
+.carousel-p {
+    position: relative;
+    right: -245px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.carousel-home {
+    position: relative;
+    right: -265px;
+    top: 25px;
+    font-weight: bold;
+    font-size: large;
+    color: beige;
+}
+
+.a-ordered-list .a-list-item,
+.a-unordered-list .a-list-item,
+ol .a-list-item,
+ul .a-list-item {
+    color: #0F1111;
+}
+
+#a-autoid-1 {
+    position: relative;
+    top: 5px;
+}
+
+.white {
+    color: lightgoldenrodyellow;
+    border: orangered;
+}
+
+.checked {
+    color: orange;
+    border: orangered;
+}
+
+.star {
+    font-style: normal;
+    font-size: small;
+}
